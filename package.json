@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm install --force && next build",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -13,8 +13,8 @@
     "@huddle01/server-sdk": "^2.5.6",
     "lucide-react": "^0.469.0",
     "next": "15.0.2",
-    "react": "19.0.0-rc-02c0e824-20241028",
-    "react-dom": "19.0.0-rc-02c0e824-20241028"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@types/node": "^20",
